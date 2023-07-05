@@ -1,0 +1,6 @@
+string = "gEEksFORgeeks"
+print(string.swapcase())  
+string = "geeksforgeeks"
+print(string.swapcase()) 
+string = "GEEKSFORGEEKS"
+print(string.swapcase())
