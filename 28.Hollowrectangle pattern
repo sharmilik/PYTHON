@@ -1,0 +1,9 @@
+rows = int(input("Please Enter the Total Number of Rows  : "))
+columns = int(input("Please Enter the Total Number of Columns  : ")) 
+for i in range(rows):
+    for j in range(columns):
+        if((i==1) or (j==1) or (i==rows)):
+            print('*', end = '  ')
+        else:
+            print(' ', end = '  ')
+    print()
