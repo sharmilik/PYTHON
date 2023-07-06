@@ -1,0 +1,32 @@
+def addition(numa,numb):
+    print=int(input("Enter numa:"))
+    print=int(input("Enter numb:"))
+    c=a+b
+    return c
+def subtraction(numa,numb):
+    c=numa-numb
+    return c
+def multiplication(numa,numb):
+    c=numa*numb
+    return c
+def division(numa,numb):
+    c=numa/numb
+    return c
+def floordiv(numa,numb):
+    c=numa//numb
+    return c
+def reminder(numa,numb):
+    c=numa%numb
+    return c
+result=addition(numa,numb)
+print(result)
+result=subtraction(numa,numb)
+print(result)
+result=multiplication(numa,numb)
+print(result)
+result=division(numa,numb)
+print(result)
+result=floordiv(numa,numb)
+print(result)
+result=reminder(numa,numb)
+print(result)
